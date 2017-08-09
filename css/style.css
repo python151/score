@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+/*----------Reset CSS----------*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+*{
+    transition: all 0.5s ease 0s;
+}
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+.btn{
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #0e9ee0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    color: #0e9ee0;
+    text-align: center;
+}
+.btn:hover{
+    background-color:  #0e9ee0;
+    color: white;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+.container{
+    max-width: 1230px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.contact{
+    margin: 100px 0px;
+    background: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+}
+.table-scroll {
+    width: 100%;
+}
+.contact .title{
+    padding: 10px 0px;
+}
+.contact .title h1{
+    float: left;
+    color: #249ee0;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 6px;
+}
+.contact .title .btn{
+    float: right;
+}
+table {
+    min-width: 600px;
+    text-align: center;
+    background: #fff;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+table thead {
+    border-bottom: 1px solid #e2eaf4;
+}
+table thead tr th {
+    vertical-align: middle;
+    padding: 15px 5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #3c4144;
+    border: 1px solid #e2eaf4;
+}
+table tbody tr td {
+    vertical-align: middle;
+    padding: 10px 5px;
+    border: 1px solid #e2eaf4;
+    font-size: 14px;
+    text-align: center;
+    color: #243639;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #fbfbfb;
+}
+table tbody tr:nth-child(even){
+    background-color: #fff;
+}
+table tbody tr:hover{
+    background-color: #ececec;
+}
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,[type="checkbox"]:checked + label{
+    color: #3c4144;
+    cursor: pointer;
+    font-weight: normal;
+    position: relative;
+    width: 14px;
+    border: 1px solid #ccc;
+    height: 14px;
+    display: block;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+[type="checkbox"]:not(:checked) + label:hover,[type="checkbox"]:checked + label:hover{
+    border: 1px solid #249ee0;
+}
+[type="checkbox"]:checked + label{
+    border: 1px solid #249ee0;
+}
+[type="checkbox"]:not(:checked) + label:after{
+    content: '✔';
+    position: absolute;
+    right: -6px;
+    width: 25px;
+    height: 25px;
+    top: -2px;
+    font-size: 13px;
+    color: #969696;
+}
+[type="checkbox"]:checked + label:after{
+    content: '✔';
+    position: absolute;
+    right: -6px;
+    width: 25px;
+    height: 25px;
+    top: -2px;
+    font-size: 13px;
+    color: #249ee0;
+}
