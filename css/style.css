@@ -85,107 +85,57 @@ a {
     padding: 0px 15px;
     margin: 0px auto;
 }
-.contact{
-    margin: 100px 0px;
-    background: #f5f5f5;
-    padding: 15px;
-    border: 1px solid #f1f1f1;
+.box{
+    width: 640px;
+    margin:40px auto;
+    border: 3px solid #f0eef1;
     border-radius: 3px;
-}
-.table-scroll {
-    width: 100%;
-}
-.contact .title{
-    padding: 10px 0px;
-}
-.contact .title h1{
-    float: left;
-    color: #249ee0;
-    font-size: 20px;
-    font-weight: 100;
-    padding-top: 6px;
-}
-.contact .title .btn{
-    float: right;
-}
-table {
-    min-width: 600px;
-    text-align: center;
-    background: #fff;
-    border-collapse: collapse;
-    width: 100%;
 
 }
-table thead {
-    border-bottom: 1px solid #e2eaf4;
-}
-table thead tr th {
-    vertical-align: middle;
-    padding: 15px 5px;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    color: #3c4144;
-    border: 1px solid #e2eaf4;
-}
-table tbody tr td {
-    vertical-align: middle;
-    padding: 10px 5px;
-    border: 1px solid #e2eaf4;
-    font-size: 14px;
-    text-align: center;
-    color: #243639;
-}
-
-table tbody tr:nth-child(odd){
-    background-color: #fbfbfb;
-}
-table tbody tr:nth-child(even){
-    background-color: #fff;
-}
-table tbody tr:hover{
-    background-color: #ececec;
-}
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
-    position: absolute;
-    left: -9999px;
-}
-[type="checkbox"]:not(:checked) + label,[type="checkbox"]:checked + label{
-    color: #3c4144;
-    cursor: pointer;
-    font-weight: normal;
-    position: relative;
-    width: 14px;
-    border: 1px solid #ccc;
-    height: 14px;
+svg{
+    width: 630px;
+    height: 400px;
     display: block;
-    border-radius: 2px;
-    margin-left: 15px;
+    margin:0px auto;
 }
-[type="checkbox"]:not(:checked) + label:hover,[type="checkbox"]:checked + label:hover{
-    border: 1px solid #249ee0;
+svg path{
+    fill:transparent;
 }
-[type="checkbox"]:checked + label{
-    border: 1px solid #249ee0;
+h1{
+    font-weight: normal;
+    text-align: center;
+    color: #807c8a;
+    font-size: 40px;
 }
-[type="checkbox"]:not(:checked) + label:after{
-    content: '✔';
+P{
+    text-align: center;
+    color: #cecbd4;
+    margin: 10px 0px;
+}
+.btn{
+    color: #cacaca;
+    margin: 30px auto 0px;
+    display: block;
+    max-width: 220px;
+    border: 3px solid #f0eef1;
+    position: relative;
+    padding: 10px 40px 10px 0px;
+    border-bottom: 0px;
+}
+.btn span{
     position: absolute;
-    right: -6px;
-    width: 25px;
-    height: 25px;
-    top: -2px;
-    font-size: 13px;
-    color: #969696;
+    height: 100%;
+    width: 38px;
+    right: 0px;
+    top:0px;
+    border-left: 3px solid #f0eef1;
 }
-[type="checkbox"]:checked + label:after{
-    content: '✔';
-    position: absolute;
-    right: -6px;
-    width: 25px;
-    height: 25px;
-    top: -2px;
-    font-size: 13px;
-    color: #249ee0;
+.btn svg{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 9px;
+}
+.btn svg path{
+    fill:#7cc4ff;
 }
