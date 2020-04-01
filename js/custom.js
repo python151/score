@@ -30,34 +30,33 @@ function describeArc(x, y, radius, startAngle, endAngle){
 
 data = [
 	{
-		'name':'FIXABLE',
-		'points':30,
-		'getPoints':10,
-		'color': '#f67091'
+	'name':'FIXABLE',
+	'points':30,
+	'getPoints':10,
+	'color': '#f67091',
 	},
 	{
-		'name':'FIXABLE2',
-		'points':30,
-		'getPoints':10,
-		'color': '#f67091'
+	'name':'FIXABLE2',
+	'points':30,
+	'getPoints':10,
+	'color': '#f67091',
 	},
 	{
-		'name':'NET-WORTH',
-		'points':20,
-		'getPoints':18,
-		'color': '#76b7dd'
+	'name':'NET-WORTH',
+	'points':20,
+	'getPoints':18,
+	'color': '#76b7dd',
 	},
 	{
-		'name':'FIXED',
-		'points':50,
-		'getPoints':32,
-		'color': '#78cbb1'
+	'name':'FIXED',
+	'points':50,
+	'getPoints':32,
+	'color': '#78cbb1',
 	},
 ];
 
 reamingArc = 360 - data.length*arcSpace;
 
-console.log(reamingArc);
 var totalPoints = 0;
 var totalGetPoints = 0;
 for(i=0;i<data.length;i++){
